@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555454;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #080606;
+  border-radius: 8px;
+}
+
+main > h1 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Oswald";
+}
+
+main #search-form form {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+main #search-form input {
+  flex: 1;
+  height: 32px;
+  font-size: 16px;
+  font-family: "Ubunto";
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+}
+
+main #search-form #button-search {
+  padding: 0 1rem;
+  font-family: "Ubuntu";
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(126, 7, 63);
+  cursor: pointer;
+}
+
+main #cep-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #cep-info .cep-data h2 {
+  font-size: 18px;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+main #cep-info .cep-data h3 {
+  font-size: 16px;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+main #cep-info .cep-data span {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
